@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <script>
+    "use strict";
+
+    let age = prompt("Ваш возраст", 18);
+
+    checkAge(age);
+
+    function checkAge(age) {
+      return (age > 18) || confirm('Родители разрешили?');
+    }
+  </script>
+
+</body>
+
+</html>

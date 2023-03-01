@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <script>
+    "use strict";
+
+    let login = prompt('Введите логин', 0);
+
+    let message = (login == 'Сотрудник') ? 'Привет' :
+      (login == 'Директор') ? 'Здравствуйте' :
+        (login == '') ? 'Нет логина' :
+          '';
+          
+    alert(message);
+  </script>
+
+</body>
+
+</html>
